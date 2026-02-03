@@ -1,0 +1,24 @@
+/*el header a partir de aqui, futuro tener ordenado el css*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+nav {
+    display: flex;
+    gap: 1rem;
+} nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+/* Seguimos con el buscador*/
+
+section {
+    padding: 1rem;
+}
