@@ -9,6 +9,7 @@ function Home () {
         <Header />
         <SearchBar/>
         <h2>Alojamientos disponibles</h2>
+        <div className="properties-grid">
         {properties.map(properties => (
             <PropertyCard
                 key={properties.id}
@@ -17,6 +18,7 @@ function Home () {
                 price={properties.price}
                 image={properties.image}/>  
         ))}
+        </div>
         </>
     )
 }
